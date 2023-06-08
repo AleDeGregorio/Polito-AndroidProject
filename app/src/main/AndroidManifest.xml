@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="it.polito.g13.permission.C2D_MESSAGE" />
+
+    <application
+        android:name=".app.MyApp"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/logo_app"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Mad"
+        tools:targetApi="31">
+        <activity
+            android:name=".activities.editprofile.SportsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.login.ConfermationActivity"
+            android:label="My Dialog Activity" />
+        <activity
+            android:name=".activities.login.VerificationActivity"
+            android:label="My Dialog Activity" />
+        <activity
+            android:name=".activities.login.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.login.RegistrationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ShowAllCourtReviews"
+            android:exported="false" />
+        <activity
+            android:name=".BrowseCourtsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditReviewCourtsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ShowReviewCourtsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ListReviewCourtsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ShowPosResDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditReservationDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ShowReservationDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BrowseAvailabilityActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ReservationActivity"
+            android:exported="false"></activity>
+
+        <meta-data
+            android:name="android.preference"
+            android:resource="@xml/preferences" />
+
+        <activity
+            android:name=".activities.editprofile.EditProfileActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activities.editprofile.ShowProfileActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>
