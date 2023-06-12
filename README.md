@@ -1,17 +1,17 @@
 # Polito-AndroidProject
-Progetto di gruppo per la realizzazione di un'app Android, per permettere la prenotazione di campi sportivi.
-Il backend è stato gestito utilizzando Firebase
+Group project for the realization of an Android app, to allow the booking of sporting courts. 
+Backend has been realized using Firebase
 
-# Specifiche del progetto
-Gli utenti effettuano l'iscrizione tramite account Google, oppure tramite verifica di un'email personale.
-Gli utenti possono:
-- gestire il proprio profilo, scegliere gli sport in cui sono interessanti, specificando il proprio livello e gli eventuali traguardi raggiunti;
-- ricercare campi disponibili in base alla città, lo sport, la data e lo slot orario;
-- visionare la disponibilità dei campi in tempo reale;
-- effettuare una prenotazione;
-- cancellare o modificare una prenotazione esistente;
-- dare un voto o una recensione ai campi delle strutture in base alle loro qualità;
-- visualizzare le recensioni lasciate da altri utenti alle varie strutture.
+# Project Specifications
+Users signup using their Google account. Alternatively, it is possible to use a personal email and provide verification for it.
+Users can:
+- manage their own profile, choosing sports they are interested in, specifying their own mastery and achievements;
+- looking for avalible fields according to some criteria, such as city, sport, date and time slot;
+- check fields availability in real time;
+- book a reservation;
+- modify or delete an existing reservation;
+- rate or review fields and structures according to their qualities;
+- view the reviews left by other users to the various structures.
 
 # Screenshot
 ![screen_1](./img/screen_1.png)
