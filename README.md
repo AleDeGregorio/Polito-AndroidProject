@@ -1,5 +1,5 @@
 # Polito-AndroidProject
-App Android per la prenotazione di campi sportivi - Progetto di gruppo
+Progetto di gruppo per la realizzazione di un'app Android, per permettere la prenotazione di campi sportivi.
 Il backend è stato gestito utilizzando Firebase
 
 # Specifiche del progetto
